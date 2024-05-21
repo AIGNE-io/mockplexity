@@ -1,0 +1,11 @@
+_id: "448137947422654464"
+name: Perplexity
+description: Perplexity AI implemented based on AIGNE
+model: ""
+createdAt: 2024-05-21T15:00:12.666Z
+updatedAt: 2024-05-21T15:00:12.666Z
+createdBy: z1e32Au8HZgwiNMntL1vL9ZWfRNcRdUKZDD
+updatedBy: z1e32Au8HZgwiNMntL1vL9ZWfRNcRdUKZDD
+gitType: simple
+temperature: 1
+topP: 1
