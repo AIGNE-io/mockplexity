@@ -9,12 +9,12 @@ parameters:
     source:
       variableFrom: tool
       agent:
-        parameters:
-          q: "{{ question }}"
-        blockletDid: z2qa2SSEHXA6nbuAHB4oELdstZpXUdvQ6GG3Q
+        blockletDid: z2qa8CgYFGbvJJyz5A2TPxD3hEAoEMrJxpmwY
         projectId: "446466583582212096"
         id: 20240513171633-YWuuP9
         from: assistant
+        parameters:
+          q: "{{ question }}"
 prompts:
   - type: message
     data:
@@ -39,6 +39,14 @@ prompts:
         Avoid mentioning that you obtained the information from the context.
 
         And answer according to the language of the user's question.
+
+
+        If there are obviously irrelevant items in the list of the context,
+        ignore those. 
+
+
+        Write a comprehensive report and try the best to cover everything in the
+        context. 
   - type: message
     data:
       id: tY7dpibIcg26cJdVJFi0I
@@ -77,6 +85,9 @@ outputVariables:
       componentProps:
         a1pldnt6iwmfghqc:
           value: Search
+        wd7bj76kom8y46cj:
+          value: true
+      componentProperties:
         wd7bj76kom8y46cj:
           value: true
     initialValue:
@@ -129,19 +140,6 @@ outputVariables:
       componentProps:
         hwfrkh870vsysdyd:
           value: ""
-  - id: RKOeuvLm56G67puX37fRB
-    name: relates
-    from:
-      type: input
-      id: 0AOmwPuF571e745D55zIJ
-    appearance:
-      componentId: g32gbyharvkzm70w
-      componentName: Google Search Related Questions View
-      icon: tabler:question-mark
-      title: Related
-      componentProps:
-        p6ee82cfinh0t003:
-          value: true
   - appearance:
       componentId: vgsgsvnhud0cq37v
       componentName: Opening Questions View
@@ -159,6 +157,19 @@ outputVariables:
         - id: 3Wru2DoKQRfnsB00lbZeL
           parameters: {}
           title: ArcBlock 在区块链行业中的应用案例有哪些？
+  - id: RKOeuvLm56G67puX37fRB
+    name: relates
+    from:
+      type: input
+      id: 0AOmwPuF571e745D55zIJ
+    appearance:
+      componentId: g32gbyharvkzm70w
+      componentName: Google Search Related Questions View
+      icon: tabler:question-mark
+      title: Related
+      componentProps:
+        p6ee82cfinh0t003:
+          value: true
   - appearance:
       componentId: a4oldpoxv7bikvpj
       componentName: Markdown View
@@ -166,6 +177,13 @@ outputVariables:
       message: ""
     id: rvjhFgxHgztyh0RUROm93
     name: $openingMessage
+  - id: jRlKLfPC3DPpg_UxWjATK
+    name: $share
+    initialValue:
+      items:
+        - to: twitter
+        - to: copy
+        - to: saveAs
 id: 20240521230017-getU5r
 createdAt: 2024-05-21T15:00:17.515Z
 updatedAt: 2024-05-21T15:00:17.515Z
