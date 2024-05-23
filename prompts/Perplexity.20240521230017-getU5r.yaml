@@ -1,0 +1,175 @@
+type: prompt
+parameters:
+  - id: I3WfIMOJE4RQsJgGm1bCC
+    type: string
+    key: question
+  - id: 0AOmwPuF571e745D55zIJ
+    key: searchResult
+    type: source
+    source:
+      variableFrom: tool
+      agent:
+        parameters:
+          q: "{{ question }}"
+        blockletDid: z2qa2SSEHXA6nbuAHB4oELdstZpXUdvQ6GG3Q
+        projectId: "446466583582212096"
+        id: 20240513171633-YWuuP9
+        from: assistant
+prompts:
+  - type: message
+    data:
+      id: 20240521232330-1OjLZf
+      role: system
+      content: >-
+        Use the following context as your learned knowledge, inside
+        <context></context> XML tags.
+
+        <context>
+
+        {{searchResult}}
+
+        </context>
+
+        When answer to user:
+
+        - If you don't know, just say that you don't know.
+
+        - If you don't know when you are not sure, ask for clarification.
+
+        Avoid mentioning that you obtained the information from the context.
+
+        And answer according to the language of the user's question.
+  - type: message
+    data:
+      id: tY7dpibIcg26cJdVJFi0I
+      role: user
+      content: "{{ question }}"
+outputVariables:
+  - id: AxhwWRMAwmqa59X28Areb
+    name: $appearance.page
+    initialValue:
+      componentId: q9efzjindnb13ap8
+      componentName: Perplexity Layout
+    appearance:
+      componentId: wvqnnr1wl624vho5
+      componentName: Simple Chat
+      componentProps:
+        vk95i9xf02kigvlt:
+          value: true
+        vrogtrf0ljvaknwh:
+          value: true
+        i2b0qp2q09vfbsj3:
+          value: true
+      componentProperties:
+        vrogtrf0ljvaknwh:
+          value: true
+        i2b0qp2q09vfbsj3:
+          value: true
+        vk95i9xf02kigvlt:
+          value: true
+        221i6we6srwk66fm:
+          value: "#000"
+  - id: xBBBynMErh8qZ2jke1uz6
+    name: $appearance.input
+    appearance:
+      componentId: 1wwtemqcdio6nqf0
+      componentName: Auto Form
+      componentProps:
+        a1pldnt6iwmfghqc:
+          value: Search
+        wd7bj76kom8y46cj:
+          value: true
+    initialValue:
+      componentId: 1wwtemqcdio6nqf0
+      componentName: Auto Form
+      componentProps:
+        wd7bj76kom8y46cj:
+          value: true
+        a1pldnt6iwmfghqc:
+          value: Search
+  - appearance:
+      componentId: q0ckknkxph4hfwas
+      componentName: Simple Output
+    id: AaqXO_CYh5SgqY5LN2NQF
+    name: $appearance.output
+    initialValue:
+      componentId: l12mb0fyf8okqhnj
+      componentName: Perplexity Output
+  - id: OlMkC0gdADQPf5_0xTf6k
+    name: question
+    from:
+      type: input
+      id: I3WfIMOJE4RQsJgGm1bCC
+    appearance:
+      componentId: a4oldpoxv7bikvpj
+      componentName: Markdown View
+      componentProps:
+        hwfrkh870vsysdyd:
+          value: "30"
+      componentProperties:
+        hwfrkh870vsysdyd:
+          value: "30"
+  - id: oGBOKC1MD_JtlregxgIzB
+    name: sources
+    from:
+      type: input
+      id: 0AOmwPuF571e745D55zIJ
+    appearance:
+      icon: tabler:list-details
+      title: Sources
+      componentId: l12mb0fyf8okqhnj
+      componentName: Google Search Sources View
+  - id: ZXZY3VpO-53KcDUxQBre1
+    name: $text
+    appearance:
+      icon: tabler:asterisk
+      title: Answer
+      componentId: a4oldpoxv7bikvpj
+      componentName: Markdown View
+      componentProps:
+        hwfrkh870vsysdyd:
+          value: ""
+  - id: RKOeuvLm56G67puX37fRB
+    name: relates
+    from:
+      type: input
+      id: 0AOmwPuF571e745D55zIJ
+    appearance:
+      componentId: g32gbyharvkzm70w
+      componentName: Google Search Related Questions View
+      icon: tabler:question-mark
+      title: Related
+      componentProps:
+        p6ee82cfinh0t003:
+          value: true
+  - appearance:
+      componentId: vgsgsvnhud0cq37v
+      componentName: Opening Questions View
+      title: ""
+    id: V8OzLusoPHq3kU0IFitfK
+    name: $openingQuestions
+    initialValue:
+      items:
+        - id: 3qjgQI1ry58jLucJIVWbQ
+          parameters: {}
+          title: ArcBlock 的主要特点和功能是什么？
+        - id: I1TXdTl4wgSbZFkHo6L7U
+          parameters: {}
+          title: ArcBlock 与其他区块链平台（如 Ethereum 和 Polkadot）相比有哪些优势和劣势？
+        - id: 3Wru2DoKQRfnsB00lbZeL
+          parameters: {}
+          title: ArcBlock 在区块链行业中的应用案例有哪些？
+  - appearance:
+      componentId: a4oldpoxv7bikvpj
+      componentName: Markdown View
+    initialValue:
+      message: ""
+    id: rvjhFgxHgztyh0RUROm93
+    name: $openingMessage
+id: 20240521230017-getU5r
+createdAt: 2024-05-21T15:00:17.515Z
+updatedAt: 2024-05-21T15:00:17.515Z
+createdBy: z1e32Au8HZgwiNMntL1vL9ZWfRNcRdUKZDD
+updatedBy: z1e32Au8HZgwiNMntL1vL9ZWfRNcRdUKZDD
+name: Perplexity
+model: gpt-4o
