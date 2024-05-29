@@ -10,8 +10,8 @@ parameters:
     source:
       variableFrom: tool
       agent:
-        blockletDid: z2qa8CgYFGbvJJyz5A2TPxD3hEAoEMrJxpmwY
-        projectId: "446466583582212096"
+        blockletDid: z2qa7LnL6RA2GXWZheHJcZZZ4WxXfU6tAj7E4
+        projectId: "450914508290916352"
         id: 20240526105615-K8W4Rk
         from: assistant
         parameters:
@@ -144,8 +144,6 @@ outputVariables:
         hwfrkh870vsysdyd:
           value: ""
   - appearance:
-      componentId: vgsgsvnhud0cq37v
-      componentName: Opening Questions View
       title: ""
     id: V8OzLusoPHq3kU0IFitfK
     name: $openingQuestions
@@ -173,9 +171,7 @@ outputVariables:
       componentProps:
         p6ee82cfinh0t003:
           value: true
-  - appearance:
-      componentId: a4oldpoxv7bikvpj
-      componentName: Markdown View
+  - appearance: {}
     initialValue:
       message: ""
     id: rvjhFgxHgztyh0RUROm93

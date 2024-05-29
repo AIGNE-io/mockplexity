@@ -1,6 +1,6 @@
 # Mockplexity
 
-Perplexity AI implemented based on AIGNE
+
 
 ## Install And Run
 
