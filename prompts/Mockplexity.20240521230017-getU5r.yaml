@@ -3,6 +3,7 @@ parameters:
   - id: I3WfIMOJE4RQsJgGm1bCC
     type: string
     key: question
+    required: true
   - id: 0AOmwPuF571e745D55zIJ
     key: searchResult
     type: source
@@ -11,7 +12,7 @@ parameters:
       agent:
         blockletDid: z2qa8CgYFGbvJJyz5A2TPxD3hEAoEMrJxpmwY
         projectId: "446466583582212096"
-        id: 20240513171633-YWuuP9
+        id: 20240526105615-K8W4Rk
         from: assistant
         parameters:
           q: "{{ question }}"
@@ -90,6 +91,8 @@ outputVariables:
       componentProperties:
         wd7bj76kom8y46cj:
           value: true
+        a1pldnt6iwmfghqc:
+          value: Get Answer
     initialValue:
       componentId: 1wwtemqcdio6nqf0
       componentName: Auto Form
@@ -165,7 +168,7 @@ outputVariables:
     appearance:
       componentId: g32gbyharvkzm70w
       componentName: Google Search Related Questions View
-      icon: tabler:question-mark
+      icon: tabler:message-plus
       title: Related
       componentProps:
         p6ee82cfinh0t003:
@@ -189,5 +192,5 @@ createdAt: 2024-05-21T15:00:17.515Z
 updatedAt: 2024-05-21T15:00:17.515Z
 createdBy: z1e32Au8HZgwiNMntL1vL9ZWfRNcRdUKZDD
 updatedBy: z1e32Au8HZgwiNMntL1vL9ZWfRNcRdUKZDD
-name: Perplexity
+name: Mockplexity
 model: gpt-4o

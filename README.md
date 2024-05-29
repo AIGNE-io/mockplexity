@@ -1,4 +1,4 @@
-# Perplexity
+# Mockplexity
 
 Perplexity AI implemented based on AIGNE
 
