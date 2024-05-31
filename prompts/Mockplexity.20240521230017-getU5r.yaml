@@ -144,6 +144,8 @@ outputVariables:
         hwfrkh870vsysdyd:
           value: ""
   - appearance:
+      componentId: vgsgsvnhud0cq37v
+      componentName: Opening Questions View
       title: ""
     id: V8OzLusoPHq3kU0IFitfK
     name: $openingQuestions
@@ -171,7 +173,9 @@ outputVariables:
       componentProps:
         p6ee82cfinh0t003:
           value: true
-  - appearance: {}
+  - appearance:
+      componentId: a4oldpoxv7bikvpj
+      componentName: Markdown View
     initialValue:
       message: ""
     id: rvjhFgxHgztyh0RUROm93
