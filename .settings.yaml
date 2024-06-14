@@ -1,16 +1,9 @@
-_id: "448137947422654464"
+id: "448137947422654464"
 name: Mockplexity
 description: Perplexity AI implemented based on AIGNE
-model: ""
 createdAt: 2024-05-21T15:00:12.666Z
-updatedAt: 2024-06-06T14:01:34.619Z
+updatedAt: 2024-06-14T06:41:15.777Z
 createdBy: z1e32Au8HZgwiNMntL1vL9ZWfRNcRdUKZDD
 updatedBy: z1e32Au8HZgwiNMntL1vL9ZWfRNcRdUKZDD
-pinnedAt: null
-gitType: simple
 temperature: 1
 topP: 1
-presencePenalty: null
-frequencyPenalty: null
-maxTokens: null
-gitAutoSync: true
