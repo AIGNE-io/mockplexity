@@ -153,13 +153,14 @@ outputVariables:
       items:
         - id: 3qjgQI1ry58jLucJIVWbQ
           parameters: {}
-          title: ArcBlock 的主要特点和功能是什么？
+          title: What are the main features and functions of ArcBlock?
         - id: I1TXdTl4wgSbZFkHo6L7U
           parameters: {}
-          title: ArcBlock 与其他区块链平台（如 Ethereum 和 Polkadot）相比有哪些优势和劣势？
+          title: What are the advantages and disadvantages of ArcBlock compared to other
+            blockchain platforms such as Ethereum and Polkadot?
         - id: 3Wru2DoKQRfnsB00lbZeL
           parameters: {}
-          title: ArcBlock 在区块链行业中的应用案例有哪些？
+          title: What are the application cases of ArcBlock in the blockchain industry?
   - id: RKOeuvLm56G67puX37fRB
     name: relates
     from:
