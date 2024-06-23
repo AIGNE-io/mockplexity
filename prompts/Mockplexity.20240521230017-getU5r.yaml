@@ -10,7 +10,7 @@ parameters:
     source:
       variableFrom: tool
       agent:
-        blockletDid: z2qa7LnL6RA2GXWZheHJcZZZ4WxXfU6tAj7E4
+        blockletDid: z2qaCHotv86NtpTce7smPga8DYuHpJB1iM5CS
         projectId: "450914508290916352"
         id: 20240526105615-K8W4Rk
         from: assistant
