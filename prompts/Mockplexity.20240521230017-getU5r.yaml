@@ -61,38 +61,14 @@ outputVariables:
       componentName: Perplexity Layout
     appearance:
       componentId: wvqnnr1wl624vho5
-      componentName: Simple Chat
-      componentProps:
-        vk95i9xf02kigvlt:
-          value: true
-        vrogtrf0ljvaknwh:
-          value: true
-        i2b0qp2q09vfbsj3:
-          value: true
-      componentProperties:
-        vrogtrf0ljvaknwh:
-          value: true
-        i2b0qp2q09vfbsj3:
-          value: true
-        vk95i9xf02kigvlt:
-          value: true
-        221i6we6srwk66fm:
-          value: "#000"
+      componentName: Simple Chat Layout
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
   - id: xBBBynMErh8qZ2jke1uz6
     name: $appearance.input
     appearance:
       componentId: 1wwtemqcdio6nqf0
       componentName: Auto Form
-      componentProps:
-        a1pldnt6iwmfghqc:
-          value: Search
-        wd7bj76kom8y46cj:
-          value: true
-      componentProperties:
-        wd7bj76kom8y46cj:
-          value: true
-        a1pldnt6iwmfghqc:
-          value: Get Answer
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
     initialValue:
       componentId: 1wwtemqcdio6nqf0
       componentName: Auto Form
@@ -104,6 +80,7 @@ outputVariables:
   - appearance:
       componentId: q0ckknkxph4hfwas
       componentName: Simple Output
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
     id: AaqXO_CYh5SgqY5LN2NQF
     name: $appearance.output
     initialValue:
@@ -117,12 +94,7 @@ outputVariables:
     appearance:
       componentId: a4oldpoxv7bikvpj
       componentName: Markdown View
-      componentProps:
-        hwfrkh870vsysdyd:
-          value: "30"
-      componentProperties:
-        hwfrkh870vsysdyd:
-          value: "30"
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
   - id: oGBOKC1MD_JtlregxgIzB
     name: sources
     from:
@@ -133,6 +105,7 @@ outputVariables:
       title: Sources
       componentId: l12mb0fyf8okqhnj
       componentName: Google Search Sources View
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
   - id: ZXZY3VpO-53KcDUxQBre1
     name: $text
     appearance:
@@ -140,13 +113,12 @@ outputVariables:
       title: Answer
       componentId: a4oldpoxv7bikvpj
       componentName: Markdown View
-      componentProps:
-        hwfrkh870vsysdyd:
-          value: ""
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
   - appearance:
       componentId: vgsgsvnhud0cq37v
       componentName: Opening Questions View
       title: ""
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
     id: V8OzLusoPHq3kU0IFitfK
     name: $openingQuestions
     initialValue:
@@ -171,12 +143,11 @@ outputVariables:
       componentName: Google Search Related Questions View
       icon: tabler:message-plus
       title: Related
-      componentProps:
-        p6ee82cfinh0t003:
-          value: true
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
   - appearance:
       componentId: a4oldpoxv7bikvpj
       componentName: Markdown View
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
     initialValue:
       message: ""
     id: rvjhFgxHgztyh0RUROm93
