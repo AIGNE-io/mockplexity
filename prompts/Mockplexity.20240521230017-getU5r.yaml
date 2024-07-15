@@ -159,6 +159,10 @@ outputVariables:
         - to: twitter
         - to: copy
         - to: saveAs
+        - to: community
+        - to: link
+      shareAttachUrl: true
+      shareAttachInputs: true
 id: 20240521230017-getU5r
 createdAt: 2024-05-21T15:00:17.515Z
 updatedAt: 2024-05-21T15:00:17.515Z
