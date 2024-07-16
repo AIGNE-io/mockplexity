@@ -69,6 +69,9 @@ outputVariables:
       componentId: 1wwtemqcdio6nqf0
       componentName: Auto Form
       componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
+      componentProperties:
+        wd7bj76kom8y46cj:
+          value: true
     initialValue:
       componentId: 1wwtemqcdio6nqf0
       componentName: Auto Form
