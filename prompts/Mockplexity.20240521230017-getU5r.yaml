@@ -164,6 +164,7 @@ outputVariables:
         - to: saveAs
         - to: community
         - to: link
+        - to: arcBlockCommunity
       shareAttachUrl: true
       shareAttachInputs: true
 id: 20240521230017-getU5r
@@ -172,4 +173,4 @@ updatedAt: 2024-05-21T15:00:17.515Z
 createdBy: z1e32Au8HZgwiNMntL1vL9ZWfRNcRdUKZDD
 updatedBy: z1e32Au8HZgwiNMntL1vL9ZWfRNcRdUKZDD
 name: Mockplexity
-model: gpt-4o
+model: gpt-4o-mini
