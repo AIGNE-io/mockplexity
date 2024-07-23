@@ -63,6 +63,11 @@ outputVariables:
       componentId: wvqnnr1wl624vho5
       componentName: Simple Chat Layout
       componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
+      componentProperties:
+        vrogtrf0ljvaknwh:
+          value: true
+        vk95i9xf02kigvlt:
+          value: true
   - id: xBBBynMErh8qZ2jke1uz6
     name: $appearance.input
     appearance:
@@ -72,6 +77,8 @@ outputVariables:
       componentProperties:
         wd7bj76kom8y46cj:
           value: true
+        a1pldnt6iwmfghqc:
+          value: Search
     initialValue:
       componentId: 1wwtemqcdio6nqf0
       componentName: Auto Form
@@ -98,6 +105,9 @@ outputVariables:
       componentId: a4oldpoxv7bikvpj
       componentName: Markdown View
       componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
+      componentProperties:
+        hwfrkh870vsysdyd:
+          value: "28"
   - id: oGBOKC1MD_JtlregxgIzB
     name: sources
     from:
@@ -147,6 +157,9 @@ outputVariables:
       icon: tabler:message-plus
       title: Related
       componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
+      componentProperties:
+        p6ee82cfinh0t003:
+          value: false
   - appearance:
       componentId: a4oldpoxv7bikvpj
       componentName: Markdown View
